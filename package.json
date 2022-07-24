@@ -1,0 +1,20 @@
+{
+  "name": "scrapper-puppeteer",
+  "version": "1.0.0",
+  "description": "A web scrapper built using puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "puppeteer": "^15.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
